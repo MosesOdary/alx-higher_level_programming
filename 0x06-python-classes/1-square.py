@@ -9,7 +9,7 @@ class Square:
         """
             Initialize the square
 
-            Args: 
+            Args:
                 size: square size
         """
         self.__size = size
