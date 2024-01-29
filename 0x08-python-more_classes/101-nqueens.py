@@ -105,8 +105,7 @@ def SolvePuzzle(board, row, queens, solutions):
             tmp_board = CopyChessBoard(board)
             tmp_board[row][c] = "Q"
             DeleteInvalidSquares(tmp_board, row, c)
-            solutions = SolvePuzzle(tmp_board, row + 1,
-                                        queens + 1, solutions)
+            solutions = SolvePuzzle(tmp_board, row + 1, queens + 1, solutions)
 
     return (solutions)
 
