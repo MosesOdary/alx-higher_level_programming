@@ -3,9 +3,9 @@
 
 
 class LockedClass:
-	"""
-		Prevent the user from instantiating new attributes
-		for anything but first_name
-	"""
+    """
+        Prevent the user from instantiating new attributes
+        for anything but first_name
+    """
 
-	__slots__ = ["first_name"]
+    __slots__ = ["first_name"]
