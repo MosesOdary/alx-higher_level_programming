@@ -22,10 +22,3 @@ class Rectangle(BaseGeometry):
     def __str__(self):
         """String method"""
         return "[Rectangle] " + str(self.__width) + '/' + str(self.__height)
-
-Rectangle = __import__('9-rectangle').Rectangle
-
-r = Rectangle(3, 5)
-
-print(r)
-print(r.area())
