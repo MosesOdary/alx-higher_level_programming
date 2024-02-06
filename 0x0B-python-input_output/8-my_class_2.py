@@ -20,4 +20,5 @@ class MyClass:
         self.score -= 1
 
     def __str__(self):
-        return "[MyClass] {} - {:d} => {:d}".format(self.__name, self.number, self.score)
+        return "[MyClass] {} - {:d} => {:d}".format(
+                    self.__name, self.number, self.score)
